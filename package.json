@@ -8,7 +8,6 @@
     "url": "https://webtorrent.io"
   },
   "browser": {
-    "bittorrent-dht/client.js": false,
     "bittorrent-lsd": false
   },
   "chromeapp": {},
@@ -18,8 +17,8 @@
   "type": "module",
   "dependencies": {
     "bittorrent-dht": "^11.0.9",
-    "bittorrent-tracker": "^11.2.1",
     "bittorrent-lsd": "^2.0.0",
+    "bittorrent-tracker": "github:Banou26/bittorrent-tracker",
     "debug": "^4.4.0",
     "run-parallel": "^1.2.0"
   },
